@@ -1,0 +1,7 @@
+path: C:\Users\nuway\OneDrive\Desktop\Realsense Project\GOOD Project\Dataset_train
+train: train # train images (relative to 'path')
+val: val  # val images (relative to 'path')
+
+# Classes
+names:
+  0: Weeds
