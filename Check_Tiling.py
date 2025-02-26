@@ -16,8 +16,8 @@ for num in range(28):
 
     color_image = cv2.imread(tiled_image_path + '/img ({}).jpg'.format(num+1))
 
-    cv2.imshow('image',color_image)
-    cv2.waitKey(0)
+    # cv2.imshow('image',color_image)
+    # cv2.waitKey(0)
 
     img_shape = color_image.shape
 

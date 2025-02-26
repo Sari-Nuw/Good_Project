@@ -40,7 +40,7 @@ mark_boxes = False
 #Opening images. Images should be names img (1), img(2), img(3), etc. and be of .tif format
 #Img_num to name tiled images
 img_num = 1
-for num in range(7):
+for num in range(85,95):
 
     color_image = cv2.imread(saved_image_path + '/img ({}).tif'.format(num+1))
     copy_image = np.copy(color_image)
